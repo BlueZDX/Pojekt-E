@@ -57,16 +57,17 @@ if start == "start":
     if choice4 == "1":
         print("You go down the first path.")
         print("Welcome to easy mode, in this mode all of your stats are now 150")
+        print("Password for Easy.py:", int(799905))
         hp = 150
         defense = 150
         atk = 150
         speed = 150
         print("Go to github and download the easy.py file.")
         
-    
     if choice4 == "2":
         print("You go down the second path.")
         print("Welcome to normal mode, in this mode you keep all your stats from this little tutorial and you get a lv50 weapon of your choice!")
+        print("Password for Normal.py:", int(111324))
         hp == hp
         defense == defense
         atk == atk
@@ -76,6 +77,7 @@ if start == "start":
     elif choice4 == "3":
         print("Bet you were hoping for this huh!")
         print("Welcome to hard mode, in this mode all of your stats are reduced by 10 and it's much harder to play!")
+        print("Password for Hard.py:", int(748900))
         hp -= 10
         defense -= 10
         atk -= 10
@@ -88,6 +90,7 @@ if start == "start":
         print("I GOT SOMETHING SPECIAL FOR YOUR ASS MR SMARTASS!!!")
         print("OH SO YOU THINK THIS IS FUNNY, OK WATCH THIS")
         print("WELCOME TO HELL MODE BITCH ALL OF YOUR STATS ARE 5 NOW AND YOU START OFF WITH A POISON EFFECT!!!")
+        print("Password for forbidden.py:", int(349825))
         hp = 5
         defense = 5
         speed = 5
